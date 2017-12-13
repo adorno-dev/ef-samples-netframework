@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2003
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{718E3786-4160-4E94-B0E8-6D928966D39A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "relationships", "relationships", "{9A87452A-242B-401A-9D1C-FD31181B1CD4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ef-samples-relationships", "ef-samples-relationships\ef-samples-relationships.csproj", "{CE62050D-7B44-45ED-92CF-0E7CA8618DED}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "mappings", "mappings", "{EB4EBC4B-CA35-4D62-81C9-C69B8B8ED164}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ef-samples-fluent-mappings", "ef-samples-fluent-mappings\ef-samples-fluent-mappings.csproj", "{CDCE09EB-232E-4C28-8489-16E9BDCFBD30}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CE62050D-7B44-45ED-92CF-0E7CA8618DED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE62050D-7B44-45ED-92CF-0E7CA8618DED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE62050D-7B44-45ED-92CF-0E7CA8618DED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE62050D-7B44-45ED-92CF-0E7CA8618DED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDCE09EB-232E-4C28-8489-16E9BDCFBD30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDCE09EB-232E-4C28-8489-16E9BDCFBD30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDCE09EB-232E-4C28-8489-16E9BDCFBD30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDCE09EB-232E-4C28-8489-16E9BDCFBD30}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9A87452A-242B-401A-9D1C-FD31181B1CD4} = {718E3786-4160-4E94-B0E8-6D928966D39A}
+		{CE62050D-7B44-45ED-92CF-0E7CA8618DED} = {9A87452A-242B-401A-9D1C-FD31181B1CD4}
+		{EB4EBC4B-CA35-4D62-81C9-C69B8B8ED164} = {718E3786-4160-4E94-B0E8-6D928966D39A}
+		{CDCE09EB-232E-4C28-8489-16E9BDCFBD30} = {EB4EBC4B-CA35-4D62-81C9-C69B8B8ED164}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {467D2677-65D0-44A5-B367-CAA5A7DFE8E4}
+	EndGlobalSection
+EndGlobal
